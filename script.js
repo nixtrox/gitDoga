@@ -22,4 +22,17 @@ function addNum(){
 }
 
 
+function minSearch(){
+    var minNum = numList[0];
+    for(var i = 0; i < numList.length; i++)
+    {
+        if(numList[i] < minNum)
+        {
+            minNum = numList[i];
+        }
+    }
+    document.getElementById("minimumPar").innerHTML += minNum;
+}
+
+
 
