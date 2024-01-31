@@ -31,7 +31,20 @@ function minSearch(){
             minNum = numList[i];
         }
     }
-    document.getElementById("minimumPar").innerHTML += minNum;
+    document.getElementById("minimumPar").innerHTML = "Minimum érték:  " + minNum;
+}
+
+
+function maxSearch(){
+    var maxNum = numList[0];
+    for(var i = 0; i < numList.length; i++)
+    {
+        if(numList[i] > maxNum)
+        {
+            maxNum = numList[i];
+        }
+    }
+    document.getElementById("maxPar").innerHTML = "Maximum érték: " +maxNum;
 }
 
 
