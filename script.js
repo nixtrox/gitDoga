@@ -11,11 +11,13 @@ function addNum(){
     if(myNum == "")
     {
         console.log("Számot kell megadni");
+        alert("Számot kell megadni")
     }
     else
     {
         numList.push(parseInt(myNum) )
         console.log(numList)
+        document.getElementById("numsListed").innerHTML += myNum + ","
     }
 }
 
