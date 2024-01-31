@@ -1,0 +1,12 @@
+
+
+.container
+{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
